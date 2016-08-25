@@ -1,0 +1,37 @@
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%; }
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #5700c6;
+  text-decoration: none; }
+
+a:hover {
+  color: #c478e4; }
+
+li {
+  list-style: none; }
+
+.navbar {
+  display: flex;
+  direction: row;
+  justify-content: space-around; }
+  .navbar .nav {
+    display: inline-flex;
+    direction: row; }
+    .navbar .nav .nav-item {
+      margin: 1rem;
+      align-self: auto; }
+  .navbar .navbar-title {
+    margin: 1rem;
+    align-self: auto; }
+
+.content {
+  margin-top: 5%; }
+
+/*# sourceMappingURL=style.css.map */

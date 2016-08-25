@@ -1,0 +1,44 @@
+// ---- variables ----
+$link-hover: rgb(196, 120, 228);
+$link-standard: rgb(87, 0, 198);
+
+// ---- general css ----
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: $link-standard;
+  text-decoration: none;
+}
+a:hover {
+  color: $link-hover;
+}
+li {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+  .nav {
+    display: inline-flex;
+    direction: row;
+    .nav-item {
+      margin: 1rem;
+      align-self: auto;
+    }
+  }
+  .navbar-title {
+    margin: 1rem;
+    align-self: auto;
+  }
+}
+.content {
+  margin-top: 5%;
+}
